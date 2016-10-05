@@ -38,7 +38,7 @@
 
     BITMetricsManager *metricsManager = [BITHockeyManager sharedHockeyManager].metricsManager;
     
-    [metricsManager trackEventWithName:@"Button Clicked"];
+    [metricsManager trackEventWithName:@"ButtonClicked"];
 
 }
 
