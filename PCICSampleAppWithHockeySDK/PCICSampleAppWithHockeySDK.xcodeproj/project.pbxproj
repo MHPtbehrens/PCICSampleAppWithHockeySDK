@@ -161,7 +161,7 @@
 					6AC077021DA4EC3300505BD8 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 6WNX4U9DBF;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					6AC0771B1DA4EC3400505BD8 = {
 						CreatedOnToolsVersion = 8.0;
@@ -360,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.porsche.PCICSampleAppWithHockeySDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = PCICSampleAppWithHockeySDKDev;
 			};
 			name = Debug;
 		};
@@ -376,7 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.porsche.PCICSampleAppWithHockeySDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = PCICSampleAppWithHockeySDKDev;
 			};
 			name = Release;
 		};
