@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+#import <HockeySDK/HockeySDK.h>
+
+
 @interface ViewController ()
 
 @end
@@ -29,6 +32,14 @@
     
     @throw [NSException exceptionWithName:NSGenericException reason:@"Absichtlicher Crash" userInfo:nil];
     
+}
+
+- (IBAction)eventButtonPressed:(id)sender {
+
+    BITMetricsManager *metricsManager = [BITHockeyManager sharedHockeyManager].metricsManager;
+    
+    [metricsManager trackEventWithName:@"Button Clicked"];
+
 }
 
 @end

@@ -25,11 +25,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSt-2u-bM7">
-                                <frame key="frameInset" minX="124" minY="520" width="46" height="30"/>
+                                <frame key="frameInset" minX="144" minY="362" width="86" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="CrashButton"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tkx-iC-SiB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddk-lf-c4t">
+                                <frame key="frameInset" minX="146" minY="530" width="84" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="EventButton"/>
+                                <connections>
+                                    <action selector="eventButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lRL-4U-6iQ"/>
                                 </connections>
                             </button>
                         </subviews>
