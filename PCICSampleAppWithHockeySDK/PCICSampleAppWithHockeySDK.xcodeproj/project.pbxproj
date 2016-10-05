@@ -365,6 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Porsche Cars North America, Inc.";
 				DEVELOPMENT_TEAM = 6WNX4U9DBF;
 				INFOPLIST_FILE = PCICSampleAppWithHockeySDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
