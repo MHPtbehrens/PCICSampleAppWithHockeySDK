@@ -356,10 +356,10 @@
 				DEVELOPMENT_TEAM = 6WNX4U9DBF;
 				INFOPLIST_FILE = PCICSampleAppWithHockeySDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.porsche.PCICSampleAppWithHockeySDK;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.porsche.PCICSampleAppWithHockeySDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "83c65b0f-e225-43ae-a59d-4f224c70490d";
-				PROVISIONING_PROFILE_SPECIFIER = PCICSampleAppWithHockeySDKDev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -371,10 +371,10 @@
 				DEVELOPMENT_TEAM = 6WNX4U9DBF;
 				INFOPLIST_FILE = PCICSampleAppWithHockeySDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.porsche.PCICSampleAppWithHockeySDK;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.porsche.PCICSampleAppWithHockeySDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "83c65b0f-e225-43ae-a59d-4f224c70490d";
-				PROVISIONING_PROFILE_SPECIFIER = PCICSampleAppWithHockeySDKDev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
